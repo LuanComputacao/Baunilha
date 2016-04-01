@@ -5,6 +5,6 @@
  * Return the length of JSON String Object
  * @param lengthJStrObj
  */
-function lengthJStrObj(lengthJStrObj){
-    return Object.keys(JSON.parse(lengthJStrObj)).length
+function lengthJStrObj(jsonStrObj){
+    return Object.keys(JSON.parse(jsonStrObj)).length
 }
